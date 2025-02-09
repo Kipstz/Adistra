@@ -1,0 +1,17 @@
+RegisterNetEvent("adistraCore.useGPB")
+AddEventHandler("adistraCore.useGPB", function(item, itemLabel)
+    SetPedArmour(PlayerPedId(), 100)
+    Framework.ShowNotification("Vous avez ~g~utilisé~s~ 1x " ..itemLabel.. "")
+end)
+
+RegisterNetEvent("adistraCore.useMediKit")
+AddEventHandler("adistraCore.useMediKit", function()
+    SetEntityHealth(PlayerPedId(), 200)
+    Framework.ShowNotification("Vous avez ~g~utilisé~s~ 1x medikit")
+end)
+
+RegisterNetEvent("adistraCore.useBandage")
+AddEventHandler("adistraCore.useBandage", function()
+    SetEntityHealth(PlayerPedId(), GetEntityHealth(PlayerPedId()) + 50)
+    Framework.ShowNotification("Vous avez ~g~utilisé~s~ 1x bandage")
+end)

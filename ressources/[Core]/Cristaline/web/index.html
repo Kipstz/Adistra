@@ -1,0 +1,194 @@
+<!-- html/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tablet Interface</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body id="tablet-body">
+<!-- Écran de chargement -->
+<div id="loading-screen">
+    <div class="loader">
+        <i class="fas fa-spinner fa-spin"></i>
+        <div class="loader-text">Chargement...</div>
+    </div>
+</div>
+
+<div class="tablet">
+    <!-- Page d'accueil -->
+    <div id="home-page" class="active">
+        <div class="status-bar">
+            <div class="time">18:07</div>
+            <div class="status-icons">
+                <i class="fas fa-battery-full"></i>
+                <i class="fas fa-signal"></i>
+            </div>
+        </div>
+
+        <div class="apps-container">
+            <div class="app" data-page="documents">
+                <i class="fas fa-folder"></i>
+                <div class="app-label">Documents</div>
+            </div>
+            <div class="app" data-page="files">
+                <i class="fas fa-file-alt"></i>
+                <div class="app-label">My Files</div>
+            </div>
+            <div class="app" data-page="bank">
+                <i class="fas fa-university"></i>
+                <div class="app-label">Banque</div>
+            </div>
+        </div>
+
+        <div class="dock"></div>
+    </div>
+
+    <!-- Page Documents -->
+    <div class="app-page" id="documents-page">
+        <div class="page-header">
+            <button class="back-btn">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <h2><i class="fas fa-folder me-2"></i> Documents</h2>
+        </div>
+        <div class="page-content">
+            <div>
+                <i class="fas fa-file-pdf me-2"></i> Document 1
+            </div>
+            <div>
+                <i class="fas fa-file-word me-2"></i> Document 2
+            </div>
+            <div>
+                <i class="fas fa-file-excel me-2"></i> Document 3
+            </div>
+        </div>
+    </div>
+
+    <!-- Page Files -->
+    <div class="app-page" id="files-page">
+        <div class="page-header">
+            <button class="back-btn">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <h2><i class="fas fa-file-alt me-2"></i> My Files</h2>
+        </div>
+        <div class="page-content">
+            <div>
+                <i class="fas fa-image me-2"></i> File 1
+            </div>
+            <div>
+                <i class="fas fa-video me-2"></i> File 2
+            </div>
+            <div>
+                <i class="fas fa-music me-2"></i> File 3
+            </div>
+        </div>
+    </div>
+
+    <!-- Page Banque -->
+    <div class="app-page" id="bank-page">
+        <div class="modern-header">
+            <div class="header-left">
+                <button class="back-btn">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="header-titles">
+                    <h1>Compte en banque</h1>
+                    <p class="subtitle">Ici vous pouvez gérer votre compte en banque.</p>
+                </div>
+            </div>
+            <div class="header-actions">
+                <div class="action-icons">
+                    <i class="fas fa-home"></i>
+                    <i class="fas fa-search"></i>
+                    <i class="fas fa-wallet"></i>
+                    <i class="fas fa-cog"></i>
+                </div>
+                <div class="user-profile">
+                    <div class="user-info">
+                        <span class="user-name">Warren Crooks</span>
+                        <span class="user-role">Client</span>
+                    </div>
+                    <div class="user-avatar">
+                        <i class="fas fa-sign-out-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modern-content">
+            <div class="content-grid">
+                <div class="left-column">
+                    <div class="balance-section">
+                        <h2>Gestion coffre</h2>
+                        <div class="balance-display">
+                            <span class="amount">120.210.000$</span>
+                            <i class="fas fa-chevron-down success-icon"></i>
+                        </div>
+                        <div class="balance-actions">
+                            <button class="action-btn withdraw">
+                                Retirer
+                                <span class="amount-tag">681$</span>
+                                <span class="check-mark">✓</span>
+                            </button>
+                            <button class="action-btn donate">
+                                Donner
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Carte bancaire -->
+                    <div class="modern-card">
+                        <div class="card-top">
+                            <div class="mastercard-chip"></div>
+                            <div class="card-chip"></div>
+                        </div>
+                        <div class="card-number">
+                            3455 4562 7710 3507
+                        </div>
+                        <div class="card-bottom">
+                            <div class="card-info">
+                                <span class="info-label">Nom de la carte</span>
+                                <span class="info-value">LSPD</span>
+                            </div>
+                            <div class="card-info">
+                                <span class="info-label">Expiration</span>
+                                <span class="info-value">02/30</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Colonne droite -->
+                <div class="right-column">
+                    <div class="info-box">
+                        <p class="card-info-text">
+                            Voici votre carte entreprise, réservée uniquement au patron et au co-patron.
+                            Avec cette carte, vous pouvez acheter exclusivement des équipements pour votre
+                            entreprise ainsi que des matières premières.
+                        </p>
+
+                        <!-- Graphique -->
+                        <div class="chart-container">
+                            <canvas id="transactionsChart"></canvas>
+                        </div>
+
+                        <!-- Transactions -->
+                        <div class="transactions-section">
+                            <h3>Paiements Récents</h3>
+                            <div class="transactions-list">
+                                <!-- Les transactions seront générées en JS -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

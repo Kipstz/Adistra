@@ -1,0 +1,19 @@
+translations = {
+    gunfightCommand = "gfdsbh", -- Command for go to zonegunfight
+    enterExitZoneGF = 'zonemenu', -- Command for open rank menu
+    openMenuDescription = 'Ouvrir le menu classement (Zone GF)',
+    inGunfightZoneMessage = '~r~Patientez avant de sortir de la zone GF',
+    notInGunfightZoneMessage = '~r~Patientez avant d\'entrer de la zone GF',
+    playerCountInZone = 'Personnes en zone gunfight : ',
+    loadingInfoMessage = '~r~Chargement des informations...',
+    playerNameLabel = 'Kills : %s | Morts : %s | K/D : %s',
+    enterZoneGF = '~g~Vous êtes entré en zone GF',
+    exitZoneGF = '~r~Vous êtes sorti de la zone GF',
+    cheatMsg = 'Tentative de triche',
+    deathNotification = 'Vous avez été tué par %s',
+    killNotification = 'Vous avez tué %s',
+    rewardNotification = 'Vous avez remporté %s$ en zone gunfight !',
+    vehicleDelete = '~r~Votre véhicule a été supprimé',
+    menuTitle = 'Gunfight',
+    menuSubtitle = 'MENU ZONE GUNFIGHT',
+}

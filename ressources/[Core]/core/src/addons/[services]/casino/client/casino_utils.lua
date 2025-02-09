@@ -1,0 +1,12 @@
+function DrawText3D(x, y, z, text)
+    SetTextFont(4)
+    SetTextProportional(0)
+    SetTextScale(0.3, 0.3)
+    SetTextColour(255, 255, 255, 215)
+    SetTextEntry("STRING")
+    SetTextCentre(1)
+    AddTextComponentString(text)
+    SetDrawOrigin(x, y, z, 0)
+    DrawText(0.0, 0.0)
+    ClearDrawOrigin()
+end

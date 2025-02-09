@@ -1,0 +1,437 @@
+{
+    "items": [
+        {
+            "item": "bandage",
+            "label": "Bandage",
+            "count": 764
+        },
+        {
+            "item": "medikit",
+            "label": "Medikit",
+            "count": 989
+        },
+        {
+            "item": "defibrillateur",
+            "label": "Defibrillateur",
+            "count": 1062
+        },
+        {
+            "item": "water",
+            "label": "Bouteille d'eau",
+            "count": 41.0
+        },
+        {
+            "item": "bread",
+            "label": "Pain",
+            "count": 120
+        },
+        {
+            "item": "orange_juice",
+            "label": "Jus d'orange",
+            "count": 1
+        },
+        {
+            "item": "phone",
+            "label": "Téléphone",
+            "count": 0
+        },
+        {
+            "item": "coca",
+            "label": "Coca-Cola",
+            "count": 1
+        },
+        {
+            "item": "fixkit",
+            "label": "Kit réparation",
+            "count": 0
+        },
+        {
+            "item": "carokit",
+            "label": "Kit carosserie",
+            "count": 0
+        },
+        {
+            "item": "defibrillateur",
+            "label": "Défibrillateur",
+            "count": 1385
+        },
+        {
+            "item": "defibrillateur",
+            "label": "Défibrillateur",
+            "count": 1449
+        },
+        {
+            "item": "opium_pooch",
+            "label": "Pochon d'opium",
+            "count": 0
+        },
+        {
+            "item": "crazytiger",
+            "label": "CrazyTiger",
+            "count": 1
+        },
+        {
+            "item": "schweppes",
+            "label": "Schweppes",
+            "count": 3
+        },
+        {
+            "item": "weed_pooch",
+            "label": "Pochon de Weed",
+            "count": 0
+        },
+        {
+            "item": "vodka",
+            "label": "Vodka",
+            "count": 0
+        },
+        {
+            "item": "oranges",
+            "label": "Oranges",
+            "count": 30
+        },
+        {
+            "item": "tabac",
+            "label": "Tabac",
+            "count": 0
+        },
+        {
+            "item": "ketamine",
+            "label": "Ketamine",
+            "count": 0
+        },
+        {
+            "item": "clip",
+            "label": "Chargeur",
+            "count": 1
+        },
+        {
+            "item": "pommes",
+            "label": "Pommes",
+            "count": 0
+        },
+        {
+            "item": "heroine_pooch",
+            "label": "Pochon de Heroine",
+            "count": 0
+        },
+        {
+            "item": "meth_pooch",
+            "label": "Pochon de Meth",
+            "count": 0
+        },
+        {
+            "item": "meth",
+            "label": "Meth",
+            "count": 0
+        },
+        {
+            "item": "chest",
+            "label": "Coffre Fort",
+            "count": 0
+        },
+        {
+            "item": "corpschicha",
+            "label": "Corps à Chicha",
+            "count": 0
+        },
+        {
+            "item": "cardaccesfleeca",
+            "label": "Carte d'accès malveillant Fleeca Bank",
+            "count": 0
+        },
+        {
+            "item": "ricard",
+            "label": "Ricard",
+            "count": 3
+        },
+        {
+            "item": "lockpick",
+            "label": "Lockpick",
+            "count": 0
+        },
+        {
+            "item": "medikit",
+            "label": "Kit de Soins",
+            "count": 185
+        },
+        {
+            "item": "punch",
+            "label": "Punch",
+            "count": 0
+        },
+        {
+            "item": "biere",
+            "label": "Bière",
+            "count": 0
+        },
+        {
+            "item": "rhum",
+            "label": "Rhum",
+            "count": 0
+        },
+        {
+            "item": "gpb",
+            "label": "Gilet Par Balle",
+            "count": 0
+        },
+        {
+            "item": "weed",
+            "label": "Weed",
+            "count": 0
+        },
+        {
+            "item": "opium",
+            "label": "Opium",
+            "count": 2
+        },
+        {
+            "item": "laptop_h",
+            "label": "Ordinateur Hacker",
+            "count": 0
+        },
+        {
+            "item": "chicha",
+            "label": "Chicha",
+            "count": 0
+        },
+        {
+            "item": "vodkacrazy",
+            "label": "Vodka-Crazy",
+            "count": 0
+        },
+        {
+            "item": "champ",
+            "label": "Bouteille de champagne",
+            "count": 0
+        },
+        {
+            "item": "whiskycoca",
+            "label": "Whisky-Coca",
+            "count": 0
+        },
+        {
+            "item": "jusoranges",
+            "label": "Jus d'oranges",
+            "count": 1
+        },
+        {
+            "item": "pierres",
+            "label": "Pierres",
+            "count": 0
+        },
+        {
+            "count": 1
+        },
+        {
+            "item": "bandage",
+            "label": "Bandage",
+            "count": 174
+        },
+        {
+            "item": "bandage",
+            "label": "Bandage",
+            "count": 155
+        },
+        {
+            "item": "feuillestabac",
+            "label": "Feuilles de Tabac",
+            "count": 1
+        },
+        {
+            "item": "citronvert",
+            "label": "Citron-Vert",
+            "count": 3
+        },
+        {
+            "item": "whisky",
+            "label": "Whisky",
+            "count": 3
+        },
+        {
+            "item": "glacon",
+            "label": "Glaçon",
+            "count": 0
+        },
+        {
+            "item": "limonade",
+            "label": "Limonade",
+            "count": 0
+        },
+        {
+            "item": "rhumblanc",
+            "label": "Rhum Blanc",
+            "count": 0
+        },
+        {
+            "item": "ecranplat",
+            "label": "Ecran Plat",
+            "count": 0
+        },
+        {
+            "item": "defibrillateur",
+            "label": "Défibrillateur",
+            "count": 1482
+        },
+        {
+            "item": "defibrillateur",
+            "label": "Défibrillateur",
+            "count": 1487
+        },
+        {
+            "item": "defibrillateur",
+            "label": "Défibrillateur",
+            "count": 1499
+        },
+        {
+            "item": "charbonchicha",
+            "label": "Charbon à Chicha",
+            "count": 0
+        },
+        {
+            "item": "gin",
+            "label": "Gin",
+            "count": 0
+        },
+        {
+            "item": "grenadine",
+            "label": "Sirop de Grenadine",
+            "count": 1
+        },
+        {
+            "item": "medikit",
+            "label": "Kit de Soins",
+            "count": 174
+        },
+        {
+            "item": "jusdefruit",
+            "label": "Jus de Fruit",
+            "count": 0
+        },
+        {
+            "item": "defibrillateur",
+            "label": "Défibrillateur",
+            "count": 1520
+        },
+        {
+            "item": "clip",
+            "label": "Chargeur",
+            "count": 0
+        },
+        {
+            "item": "medikit",
+            "label": "Kit de Soins",
+            "count": 178
+        },
+        {
+            "item": "cigaretteblonde",
+            "label": "Cigarette Blonde",
+            "count": 0
+        },
+        {
+            "item": "cardsecurefleeca",
+            "label": "Carte de Sécurité Fleeca Bank",
+            "count": 0
+        },
+        {
+            "item": "laptop",
+            "label": "Ordinateur Portable",
+            "count": 0
+        },
+        {
+            "item": "carotool",
+            "label": "Outils de carrosserie",
+            "count": 0
+        },
+        {
+            "item": "bandage",
+            "label": "Bandage",
+            "count": 181
+        },
+        {
+            "item": "malboro",
+            "label": "Malboro",
+            "count": 0
+        },
+        {
+            "item": "ketamine_pooch",
+            "label": "Pochon de Ketamine",
+            "count": 0
+        },
+        {
+            "item": "heroine",
+            "label": "Heroine",
+            "count": 0
+        },
+        {
+            "item": "id_card",
+            "label": "Carte identification",
+            "count": 0
+        },
+        {
+            "item": "cigarettebrune",
+            "label": "Cigarette Brune",
+            "count": 0
+        },
+        {
+            "item": "montre",
+            "label": "Montre",
+            "count": 0
+        },
+        {
+            "item": "thermal_charge",
+            "label": "Charge Thermique",
+            "count": 0
+        },
+        {
+            "item": "extasie_pooch",
+            "label": "Pochon de Extasie",
+            "count": 0
+        },
+        {
+            "item": "coke_pooch",
+            "label": "Pochon de Cocaine",
+            "count": 0
+        },
+        {
+            "item": "menthe",
+            "label": "Menthe",
+            "count": 6
+        },
+        {
+            "item": "siropcanne",
+            "label": "Sirop de Sucre de Canne",
+            "count": 7
+        },
+        {
+            "item": "spray",
+            "label": "Spray",
+            "count": 2
+        },
+        {
+            "item": "bandage",
+            "label": "Bandage",
+            "count": 180
+        },
+        {
+            "item": "bandage",
+            "label": "Bandage",
+            "count": 184
+        },
+        {
+            "item": "charbon",
+            "label": "Charbon",
+            "count": 0
+        },
+        {
+            "item": "poulet",
+            "label": "Poulet",
+            "count": 14
+        },
+        {
+            "item": "hydrothermale",
+            "label": "Hydrothermale",
+            "count": 24
+        }
+    ]
+}

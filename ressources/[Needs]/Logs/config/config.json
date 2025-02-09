@@ -1,0 +1,40 @@
+{
+    "prefix":"!",
+
+    "tokens": {
+        "1":{
+            "token": "MTI5ODYzNDE2NjM2NzE2MjM2OQ.Gum7aa.Txf5uYeLDBaIaobOU-zxQ-394xp4QMpAq6eA6s",
+            "guildID": "1298631532986237049",
+            "_Note": "YOU NEED TO HAVE AT LEAST 2 BOT TOKENS!"
+        },
+        "2":{
+            "token": "MTI5ODYzNDE2NjM2NzE2MjM2OQ.Gum7aa.Txf5uYeLDBaIaobOU-zxQ-394xp4QMpAq6eA6s",
+            "guildID": "1298631532986237049",
+            "_Note": "YOU NEED TO HAVE AT LEAST 2 DIFFERENT BOT TOKENS!"
+        }
+    },
+
+    "NameChangePerms": "jd.staff",
+    "screenshotPerms": "jd.staff",    
+
+    "allLogs": true,
+    "weaponLog": true,
+
+    "playerId": true,
+    "postals": true,
+    "playerHealth": true,
+    "playerArmor": true,
+    "discordId": true,
+    "ip": false,
+    "playerPing": true,
+    "steamId": true,
+    "steamUrl": true,
+    "license": true,
+    "accounts": true,
+
+    "WeaponsNotLogged": [
+        "WEAPON_SNOWBALL",
+        "WEAPON_FIREEXTINGUISHER",
+        "WEAPON_PETROLCAN"
+    ]
+}

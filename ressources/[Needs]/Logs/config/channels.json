@@ -1,0 +1,157 @@
+{
+  "newInstall": false,
+  "all": {
+    "channelId": "1298631533271187552",
+    "color": "#A1A1A1",
+    "embed": true,
+    "client": 1
+  },
+  "system": {
+    "channelId": "1298631533271187550",
+    "icon": "🧾",
+    "color": "#A1A1A1",
+    "embed": true,
+    "client": 2
+  },
+  "chat": {
+    "channelId": "1298631533271187553",
+    "icon": "💬",
+    "color": "#A1A1A1",
+    "logHistory": true,
+    "embed": true,
+    "client": 2
+  },
+  "join": {
+    "channelId": "1298631533271187554",
+    "icon": "📥",
+    "color": "#3AF241",
+    "logHistory": true,
+    "embed": true,
+    "client": 2
+  },
+  "leave": {
+    "channelId": "1298631533271187555",
+    "icon": "📤",
+    "color": "#F23A3A",
+    "logHistory": true,
+    "embed": true,
+    "client": 2
+  },
+  "death": {
+    "channelId": "1298631533271187556",
+    "icon": "💀",
+    "color": "#000000",
+    "logHistory": true,
+    "embed": true,
+    "client": 2
+  },
+  "shooting": {
+    "channelId": "1298631533271187557",
+    "icon": "🔫",
+    "color": "#2E66F2",
+    "logHistory": false,
+    "embed": true,
+    "client": 2
+  },
+  "resource": {
+    "channelId": "1298631533271187558",
+    "icon": "🔧",
+    "color": "#EBEE3F",
+    "logHistory": true,
+    "embed": true,
+    "client": 2
+  },
+  "nameChange": {
+    "channelId": "1298631533426380810",
+    "icon": "💠",
+    "color": "#03FC98",
+    "logHistory": true,
+    "embed": true,
+    "client": 2
+  },
+  "explosion": {
+    "channelId": "1298631533426380811",
+    "icon": "🧨",
+    "color": "#03FC98",
+    "logHistory": true,
+    "embed": true,
+    "client": 2
+  },
+  "txAdmin": {
+    "channelId": "1298631533426380812",
+    "icon": "💻",
+    "color": "#FFFFFF",
+    "embed": true,
+    "client": 2
+  },
+  "interactions": {
+    "channelId": "1298639391958499409",
+    "icon": "🙋‍♂️",
+    "color": "#FFFFFF",
+    "embed": true,
+    "client": 2
+  },
+  "cheatSuspect": {
+    "channelId": "1298631533426380814",
+    "icon": "🚨",
+    "color": "#FFFFFF",
+    "embed": true,
+    "client": 2
+  },
+  "agent": {
+    "channelId": "1298631533426380815",
+    "icon": "🚨",
+    "color": "#FFFFFF",
+    "embed": true,
+    "client": 2
+  },
+  "jails": {
+    "channelId": "1298631533426380817",
+    "icon": "🚧",
+    "color": "#FFFFFF",
+    "embed": true,
+    "client": 2
+  },
+  "unjails": {
+    "channelId": "1298631533426380818",
+    "icon": "🚧",
+    "color": "#FFFFFF",
+    "embed": true,
+    "client": 2
+  },
+  "bans": {
+    "channelId": "1298631533426380819",
+    "icon": "📛",
+    "color": "#FFFFFF",
+    "embed": true,
+    "client": 2
+  },
+  "adminMenu": {
+    "channelId": "1298631533569245185",
+    "icon": "🛑",
+    "color": "#FFFFFF",
+    "embed": true,
+    "client": 2
+  },
+  "adminCommands": {
+    "channelId": "1298631533569245184",
+    "icon": "🚨",
+    "color": "#FFFFFF",
+    "embed": true,
+    "client": 2
+  },
+  "boutique": {
+    "channelId": "1298631533569245186",
+    "icon": "💎",
+    "color": "#FFFFFF",
+    "embed": true,
+    "client": 2
+  },
+  "afk-rewards": {
+    "channelId": "1298631533569245187",
+    "icon": "💲",
+    "color": "#FFFFFF",
+    "embed": true,
+    "client": 2
+  }
+}

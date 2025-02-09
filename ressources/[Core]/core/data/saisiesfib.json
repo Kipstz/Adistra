@@ -1,0 +1,16 @@
+[
+    {
+        "items": [],
+        "id": 1,
+        "weapons": [
+            {
+                "count": 1,
+                "weaponAmmo": 250,
+                "weaponLabel": "Pistolet calibre 50",
+                "weaponName": "weapon_pistol50"
+            }
+        ],
+        "appartenance": "Alex Dubois",
+        "motif": "Ilegal"
+    }
+]

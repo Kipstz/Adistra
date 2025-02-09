@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fwClipSetManager>
+  <clipSets>
+    <Item type="fwClipSet" key="eki@drive_by@std_ps_1h">
+      <fallbackId>drive_by@std_ps</fallbackId>
+      <clipDictionaryName>eki@drive_by@std_ps_1h</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+    <Item type="fwClipSet" key="eki@drive_by@std_rds_1h">
+      <fallbackId>drive_by@std_rds</fallbackId>
+      <clipDictionaryName>eki@drive_by@std_rds_1h</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+    <Item type="fwClipSet" key="eki@drive_by@std_rps_1h">
+      <fallbackId>drive_by@std_rps</fallbackId>
+      <clipDictionaryName>eki@drive_by@std_rps_1h</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+  </clipSets>
+  <clipDictionaryMetadatas>
+    <Item key="eki@drive_by@std_ps_1h">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_Vehicle</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+    <Item key="eki@drive_by@std_rds_1h">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_Vehicle</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+    <Item key="eki@drive_by@std_rps_1h">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_Vehicle</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+  </clipDictionaryMetadatas>
+</fwClipSetManager>

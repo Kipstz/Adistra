@@ -1,0 +1,88 @@
+--Player = {}
+--UI = {}
+--Minimap = {}
+--SatNav = {
+--    NONE = { icon = 0 },
+--    UP = { icon = 1 },
+--    DOWN = { icon = 2 },
+--    LEFT = { icon = 3 },
+--    RIGHT = { icon = 4 },
+--    EXIT_LEFT = { icon = 5 },
+--    EXIT_RIGHT = { icon = 6 },
+--    UP_LEFT = { icon = 7 },
+--    UP_RIGHT = { icon = 8 },
+--    MERGE_RIGHT = { icon = 9 },
+--    MERGE_LEFT = { icon = 10 },
+--    UTURN = { icon = 11 },
+--}
+--MinimapScaleform = {
+--    scaleform = nil,
+--}
+--
+--function MinimapScaleform:Setup()
+--    self.scaleform = RequestScaleformMovie("minimap")
+--    SetRadarBigmapEnabled(true, false)
+--    Wait(0)
+--    SetRadarBigmapEnabled(false, false)
+--end
+
+--function Minimap:SetZoomLevels()
+--    SetMapZoomDataLevel(0, 0.96, 0.9, 0.08, 0.0, 0.0) -- Level 0
+--    SetMapZoomDataLevel(1, 1.6, 0.9, 0.08, 0.0, 0.0)  -- Level 1
+--    SetMapZoomDataLevel(2, 8.6, 0.9, 0.08, 0.0, 0.0)  -- Level 2
+--    SetMapZoomDataLevel(3, 12.3, 0.9, 0.08, 0.0, 0.0) -- Level 3
+--    SetMapZoomDataLevel(4, 24.3, 0.9, 0.08, 0.0, 0.0) -- Level 4
+--    SetMapZoomDataLevel(5, 55.0, 0.0, 0.1, 2.0, 1.0)  -- ZOOM_LEVEL_GOLF_COURSE
+--    SetMapZoomDataLevel(6, 450.0, 0.0, 0.1, 1.0, 1.0) -- ZOOM_LEVEL_INTERIOR
+--    SetMapZoomDataLevel(7, 4.5, 0.0, 0.0, 0.0, 0.0)   -- ZOOM_LEVEL_GALLERY
+--    SetMapZoomDataLevel(8, 11.0, 0.0, 0.0, 2.0, 3.0)  -- ZOOM_LEVEL_GALLERY_MAXIMIZE
+--end
+
+--function Minimap:LoadTextureDict()
+--    RequestStreamedTextureDict("circlemap", false)
+--    while not HasStreamedTextureDictLoaded("circlemap") do
+--        Wait(100)
+--    end
+--    AddReplaceTexture("platform:/textures/graphics", "radarmasksm", "circlemap", "radarmasksm")
+--end
+
+--function Player:IsOnFoot()
+--    return IsPedOnFoot(PlayerPedId())
+--end
+--
+--function Player:IsInVehicle()
+--    return IsPedInAnyVehicle(PlayerPedId(), true)
+--end
+
+--function UI:HideSatNav(minimap)
+--    BeginScaleformMovieMethod(minimap, "HIDE_SATNAV")
+--    ScaleformMovieMethodAddParamInt(0)
+--    EndScaleformMovieMethod()
+--end
+
+--function UI:SetupHealthAndArmour(minimap)
+--    BeginScaleformMovieMethod(minimap, "SETUP_HEALTH_ARMOUR")
+--    ScaleformMovieMethodAddParamInt(3)
+--    EndScaleformMovieMethod()
+--end
+
+--Citizen.CreateThread(function()
+--    local minimap = MinimapScaleform
+--
+--    Minimap:SetZoomLevels()
+--    Minimap:LoadTextureDict()
+--    minimap:Setup()
+--
+--    while true do
+--        Wait(30)
+--        local isPedOnFoot = Player:IsOnFoot()
+--        local isPedInVehicle = Player:IsInVehicle()
+--
+--        if isPedOnFoot or isPedInVehicle then
+--            SetRadarZoom(1100)
+--            UI:HideSatNav(minimap.scaleform)
+--        end
+--        SetBlipAlpha(GetNorthRadarBlip(), 0)
+--        UI:SetupHealthAndArmour(minimap.scaleform)
+--    end
+--end)

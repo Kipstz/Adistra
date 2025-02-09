@@ -1,0 +1,148 @@
+{
+  "newInstall": true,
+
+  "all": {
+    "channelId": "",
+    "color": "#A1A1A1",
+    "embed": true,
+    "client": 1
+  },
+
+  "system": {
+    "channelId": "",
+    "icon": "🧾",
+    "color": "#A1A1A1",
+    "embed": true,
+    "client": 2
+  },
+
+  "chat": {
+    "channelId": "",
+    "icon": "💬",
+    "color": "#A1A1A1",
+    "logHistory": true,
+    "embed": true,
+    "client": 2
+  },
+
+  "join": {
+    "channelId": "",
+    "icon": "📥",
+    "color": "#3AF241",
+    "logHistory": true,
+    "embed": true,
+    "client": 2
+  },
+
+  "leave": {
+    "channelId": "",
+    "icon": "📤",
+    "color": "#F23A3A",
+    "logHistory": true,
+    "embed": true,
+    "client": 2
+  },
+
+  "death": {
+    "channelId": "",
+    "icon": "💀",
+    "color": "#000000",
+    "logHistory": true,
+    "embed": true,
+    "client": 2
+  },
+
+  "shooting": {
+    "channelId": "",
+    "icon": "🔫",
+    "color": "#2E66F2",
+    "logHistory": false,
+    "embed": true,
+    "client": 2
+  },
+
+  "resource": {
+    "channelId": "",
+    "icon": "🔧",
+    "color": "#EBEE3F",
+    "logHistory": true,
+    "embed": true,
+    "client": 2
+  },
+
+  "nameChange": {
+    "channelId": "",
+    "icon": "💠",
+    "color": "#03FC98",
+    "logHistory": true,
+    "embed": true,
+    "client": 2
+  },
+
+  "explosion": {
+    "channelId": "",
+    "icon": "🧨",
+    "color": "#03FC98",
+    "logHistory": true,
+    "embed": true,
+    "client": 2
+  },
+
+  "txAdmin": {
+    "channelId": "",
+    "icon": "💻",
+    "color": "#FFFFFF",
+    "embed": true,
+    "client": 2
+  },
+
+  "adminMenu": {
+    "channelId": "4",
+    "icon": "🛑",
+    "color": "#FFFFFF",
+    "embed": true,
+    "client": 2
+  },
+  "adminCommands": {
+    "channelId": "",
+    "icon": "🚨",
+    "color": "#FFFFFF",
+    "embed": true,
+    "client": 2
+  },
+  "jails": {
+    "channelId": "",
+    "icon": "🚧",
+    "color": "#FFFFFF",
+    "embed": true,
+    "client": 2
+  },
+  "bans": {
+    "channelId": "",
+    "icon": "📛",
+    "color": "#FFFFFF",
+    "embed": true,
+    "client": 2
+  },
+  "interactions": {
+    "channelId": "",
+    "icon": "🙋‍♂️",
+    "color": "#FFFFFF",
+    "embed": true,
+    "client": 2
+  },
+  "cheatSuspect": {
+    "channelId": "",
+    "icon": "🚨",
+    "color": "#FFFFFF",
+    "embed": true,
+    "client": 2
+  },
+  "agent": {
+    "channelId": "",
+    "icon": "🚨",
+    "color": "#FFFFFF",
+    "embed": true,
+    "client": 2
+  }
+}

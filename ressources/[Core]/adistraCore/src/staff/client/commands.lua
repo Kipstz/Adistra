@@ -1,0 +1,5 @@
+RegisterCommand("coords", function()
+    local playerCoords = GetEntityCoords(PlayerPedId())
+    local playerHeading = GetEntityHeading(PlayerPedId())
+    print(string.format("Coordonnées: X = %.2f, Y = %.2f, Z = %.2f, H = %.2f", playerCoords.x, playerCoords.y, playerCoords.z, playerHeading))
+end, false)

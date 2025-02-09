@@ -1,0 +1,15 @@
+
+CREATE TABLE IF NOT EXISTS `playlists` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `label` varchar(60) DEFAULT NULL,
+  
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=64 DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS `playlist_songs` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `playlist` int(11) DEFAULT NULL,
+  `link` varchar(500) DEFAULT NULL,
+
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=46 DEFAULT CHARSET=utf8mb4;

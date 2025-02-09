@@ -1,0 +1,6 @@
+
+Config['factions'] = {
+    factionsCanWash = {
+        'cartelcayo'
+    }
+}
